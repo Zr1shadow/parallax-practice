@@ -1,0 +1,87 @@
+
+.hero-section {
+    border:1px solid black;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.hero-text{
+    font-family:'Lobster', cursive;
+    color:white;
+}
+
+.hero-title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+}
+
+nav.navbar-nav.navbar-right li a {
+    color: blue;
+}
+
+.first{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/pexels-road.jpg");
+}
+
+.rose{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/pexels-rose.jpg");
+}
+
+.fish{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/pexels-fish.jpg");
+}
+
+.plant{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/pexels-plant.jpg");
+}
+
+.candy{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../IMG/pexels-candy.jpg");
+}
+
+.img-bg-dark{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.arrow{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    top: 90%;
+}
+.fa-stack{
+    position: absolute;
+}
+.fa-circle{
+    color:grey;
+    opacity: .5;
+}
+
+footer{
+    background-color: #ff4e33;
+}
+
+footer>p,.fa-circle{
+    color:rgba(255, 255, 255, 0.6);
+}
+
+.footer-white {
+    color:white;
+}
+
+/* .img-bg-dark::after{
+    content: "<i class="fa-solid fa-circle-chevron-down"></i>"
+} */
